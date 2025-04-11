@@ -17,7 +17,7 @@ def get_joke():
 get_joke()
 
 # Ask the user if they want more jokes
-answer = input("Would you like another joke? :)").lower()
+answer = input("How about another joke? (yes/no)").lower().strip()
 
 # Continue fetching jokes as long as the user responds 'yes'
 while answer == "yes":
